@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio_Card</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: wheat;
+    }
+
+    .image-container img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .card {
+        width: 30%;
+        height: 70vh;
+        margin: 5rem auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    }
+
+    .hero {
+        height: 200px;
+        background-color: skyblue;
+    }
+
+
+    .hero .hero-content {
+        height: 200px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .hero .hero-content h6 {
+        margin-top: 1rem;
+        font-size: 20px;
+        color: white;
+    }
+
+    .bio-info {
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .bio-info h3{
+        font-size: 25px;
+    }
+
+    .bio-info p{
+        padding: 15px 0;
+        line-height: 20px;
+    }
+
+    button{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        background-color: skyblue;
+        cursor: pointer;
+    }
+
+    button:hover{
+        opacity: .7;
+    }
+
+</style>
+
+<body>
+
+    <div class="card">
+
+        <div class="hero">
+            <div class="hero-content">
+                <div class="image-container">
+                    <img src="./images/portrait-african-american-man.jpg" alt="">
+                </div>
+                <h6>Josh Wood</h6>
+            </div>
+        </div>
+
+        <div class="bio-info">
+            <h3> Short Bio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis hic,
+                ducimus quam ad dolores totam quaerat et voluptas culpa. \
+                Laudantium alias placeat accusantium expedita numquam delectus officia nobis at corporis.</p>
+            <button>More Info</button>
+        </div>
+    </div>
+</body>
+
+</html>
